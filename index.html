@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link  href="https://cdn.glitch.global/c3cf1911-856f-4310-b5b5-5a8dc66d4a02/nougarments.png?v=1702485288581" />
+    <!--     Load google fonts, if you want  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Nunito:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mario's Kitchen</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Import the webpage's javascript file -->
+    <script src="/app.js" defer></script>
+  </head>
+
+  <body>
+    <div>
+      <!-- header links -->
+      <nav>
+        <a href="index.html"> home</a>
+        <a href="photography.html"> photography </a>
+        <a href="projects.html"> projects </a>
+        <a href="tour.html"> tour </a>
+      </nav>
+    </div>
+
+    <div class="title">mario's kitchen</div>
+
+    <div id="banner">
+      <!-- banner-->
+
+      <img
+        id="myImage"
+        src="https://cdn.glitch.global/c3cf1911-856f-4310-b5b5-5a8dc66d4a02/banner-min.jpeg?v=1695958659498"
+      />
+    </div>
+
+    <div class="aboutMe">
+      Welcome to my kitchen. My name is Mario Barraza and I'm a junior Computer
+      Science major. I love cooking, photography and music. You can see examples
+      of all in the header links above.
+    </div>
+
+    <div id="overlay" onclick="off()">
+      <div id="jumpscare">
+        <img
+          src="https://cdn.glitch.global/c3cf1911-856f-4310-b5b5-5a8dc66d4a02/jumpscare.avif?v=1695941359731"
+        />
+      </div>
+    </div>
+
+    <div>
+      <button id="surpriseButton" onclick="on()">do not click</button>
+    </div>
+  </body>
+</html>
